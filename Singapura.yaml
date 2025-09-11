@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: sg3tr.jagoanvip.xyz
     udp: true
-  - name: SINGAPORE 2
+  - name: SINGAPORE 2 Jagoan
     server: quiz.int.vidio.com
     port: 443
     type: trojan
