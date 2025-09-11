@@ -1,5 +1,5 @@
 proxies:
-  - name: INDONESIA 
+  - name: KEDAI QUIZ
     server: quiz.int.vidio.com
     port: 443
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: id-nusa.kedaivpn.cloud
     udp: true
-  - name: INDONESIA 2
+  - name: Robot Nontn
     server: nontontv.vidio.com
     port: 443
     type: trojan
