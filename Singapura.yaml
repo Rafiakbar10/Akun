@@ -1,5 +1,5 @@
 proxies:
-  - name: SINGAPORE 1
+  - name: Jagoan Huri
     server: hurricane.lipcon.com
     port: 443
     type: trojan
@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: sg3tr.jagoanvip.xyz
     udp: true
-  - name: SINGAPORE 2 Jagoan
+  - name: Jagoan quiz
     server: quiz.int.vidio.com
     port: 443
     type: trojan
