@@ -1,5 +1,5 @@
 proxies:
-  - name: SG GRPC quiz.int
+  - name: SG GRPC int
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -10,7 +10,7 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
-  - name: SG GRPC quiz.vidio
+  - name: SG GRPC quiz
     server: quiz.vidio.com
     port: 443
     type: trojan
@@ -79,7 +79,7 @@ proxies:
       headers:
         Host: id-nusa.kedaivpn.cloud
     udp: true
-  - name: KEDAI GRPC 1
+  - name: KEDAI GRPC int
     server: quiz.int.vidio.com
     port: 443
     type: vmess
@@ -93,7 +93,7 @@ proxies:
     grpc-opts:
       grpc-service-name: vmess-grpc
     udp: true
-  - name: KEDAI GRPC 2
+  - name: KEDAI GRPC quiz
     server: quiz.vidio.com
     port: 443
     type: vmess
@@ -107,7 +107,7 @@ proxies:
     grpc-opts:
       grpc-service-name: vmess-grpc
     udp: true
-  - name: KEDAI WS 1
+  - name: KEDAI WS nont
     server: nontontv.vidio.com
     port: 443
     type: vmess
@@ -123,7 +123,7 @@ proxies:
       headers:
         Host: id-nusa.kedaivpn.cloud
     udp: true
-  - name: KEDAI WS 2
+  - name: KEDAI WS huri
     server: hurricane.lipcon.com
     port: 443
     type: vmess
@@ -139,7 +139,7 @@ proxies:
       headers:
         Host: id-nusa.kedaivpn.cloud
     udp: true
-  - name: ROBOT WS 1
+  - name: ROBOT WS int
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -152,7 +152,7 @@ proxies:
       headers:
         Host: quiz.int.vidio.com.kdi.liteon.biz.id
     udp: true
-  - name: ROBOT WS 2
+  - name: ROBOT WS quiz
     server: quiz.vidio.com
     port: 443
     type: trojan
@@ -165,7 +165,7 @@ proxies:
       headers:
         Host: quiz.vidio.com.kdi.liteon.biz.id
     udp: true
-  - name: ROBOT GRPC 1
+  - name: ROBOT GRPC huri
     server: hurricane.lipcon.com
     port: 443
     type: trojan
@@ -176,7 +176,7 @@ proxies:
     grpc-opts:
       grpc-service-name: trojan-grpc
     udp: true
-  - name: ROBOT GRPC 2
+  - name: ROBOT GRPC nont
     server: nontontv.vidio.com
     port: 443
     type: trojan
@@ -187,7 +187,7 @@ proxies:
     grpc-opts:
       grpc-service-name: trojan-grpc
     udp: true
-  - name: (ID) TELKOM 1
+  - name: (ID) TELKOM int
     server: quiz.int.vidio.com
     port: 443
     type: vless
@@ -202,7 +202,7 @@ proxies:
       headers:
         Host: joss.krikkrik.tech
     udp: true
-  - name: (ID) TELKOM 2
+  - name: (ID) TELKOM huri
     server: hurricane.lipcon.com
     port: 443
     type: vless
