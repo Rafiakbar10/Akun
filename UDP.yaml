@@ -1,5 +1,5 @@
 proxies:
-  - name: SG GRPC 1
+  - name: SG GRPC quiz.int
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -10,7 +10,7 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
-  - name: SG GRPC 2
+  - name: SG GRPC quiz.vidio
     server: quiz.vidio.com
     port: 443
     type: trojan
@@ -21,7 +21,7 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
-  - name: SG WS 1 
+  - name: SG WS huri
     server: hurricane.lipcon.com
     port: 443
     type: trojan
@@ -34,7 +34,7 @@ proxies:
       headers:
         Host: sg3tr.jagoanvip.xyz
     udp: true
-  - name: SG WS 
+  - name: SG WS notn
     server: nontontv.vidio.com
     port: 443
     type: trojan
@@ -47,7 +47,7 @@ proxies:
       headers:
         Host: sg3tr.jagoanvip.xyz
     udp: true
-  - name: KEDAI HTTP 1
+  - name: KEDAI HTTP int
     server: quiz.int.vidio.com
     port: 80
     type: vmess
@@ -63,7 +63,7 @@ proxies:
       headers:
         Host: id-nusa.kedaivpn.cloud
     udp: true
-  - name: KEDAI HTTP 2
+  - name: KEDAI HTTP quiz
     server: quiz.vidio.com
     port: 80
     type: vmess
