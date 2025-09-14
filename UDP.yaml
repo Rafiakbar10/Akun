@@ -107,7 +107,7 @@ proxies:
     grpc-opts:
       grpc-service-name: vmess-grpc
     udp: true
-  - name: KEDAI WS nont
+  - name: KEDAI WS sup
     server: support.vidio.com
     port: 443
     type: vmess
@@ -116,12 +116,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-nusa.kedaivpn.cloud
+    servername: support.vidio.com.id-nusa.kedaivpn.cloud
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: id-nusa.kedaivpn.cloud
+        Host: support.vidio.com.id-nusa.kedaivpn.cloud
     udp: true
   - name: KEDAI WS huri
     server: hurricane.lipcon.com
