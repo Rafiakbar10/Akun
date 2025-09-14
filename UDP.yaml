@@ -116,12 +116,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.vidio.com.id-nusa.kedaivpn.cloud
+    servername: id-nusa.kedaivpn.cloud
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: support.vidio.com.id-nusa.kedaivpn.cloud
+        Host: id-nusa.kedaivpn.cloud
     udp: true
   - name: KEDAI WS huri
     server: hurricane.lipcon.com
