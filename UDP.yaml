@@ -123,6 +123,22 @@ proxies:
       headers:
         Host: id-nusa.kedaivpn.cloud
     udp: true
+  - name: KEDAI WS img1
+    server: img.email1.vidio.com
+    port: 443
+    type: vmess
+    uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-nusa.kedaivpn.cloud
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-nusa.kedaivpn.cloud
+    udp: true
   - name: KEDAI WS huri
     server: hurricane.lipcon.com
     port: 443
