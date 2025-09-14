@@ -100,13 +100,13 @@ proxies:
     uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
     servername: id-nusa.kedaivpn.cloud
     network: grpc
     grpc-opts:
       grpc-service-name: vmess-grpc
-    udp: true
+    udp: false
   - name: KEDAI WS sup
     server: support.vidio.com
     port: 80
