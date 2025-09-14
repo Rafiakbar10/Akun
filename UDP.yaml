@@ -108,7 +108,7 @@ proxies:
       grpc-service-name: vmess-grpc
     udp: true
   - name: KEDAI WS nont
-    server: nontontv.vidio.com
+    server: support.vidio.com
     port: 443
     type: vmess
     uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
