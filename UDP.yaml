@@ -181,28 +181,32 @@ proxies:
       headers:
         Host: quiz.vidio.com.kdi.liteon.biz.id
     udp: true
-  - name: ROBOT GRPC huri
+  - name: ROBOT WS quiz
     server: hurricane.lipcon.com
     port: 443
     type: trojan
     password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
     skip-cert-verify: true
     sni: kdi.liteon.biz.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
-    udp: true
-  - name: ROBOT GRPC nont
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: kdi.liteon.biz.id
+    udp: false
+  - name: ROBOT WS quiz
     server: nontontv.vidio.com
     port: 443
     type: trojan
     password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
     skip-cert-verify: true
     sni: kdi.liteon.biz.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
-    udp: true
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: kdi.liteon.biz.id
+    udp: false
   - name: (ID) TELKOM int
     server: quiz.int.vidio.com
     port: 443
