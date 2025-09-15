@@ -181,7 +181,7 @@ proxies:
       headers:
         Host: quiz.vidio.com.kdi.liteon.biz.id
     udp: true
-  - name: ROBOT WS quiz
+  - name: ROBOT WS huri
     server: hurricane.lipcon.com
     port: 443
     type: trojan
@@ -194,7 +194,7 @@ proxies:
       headers:
         Host: kdi.liteon.biz.id
     udp: false
-  - name: ROBOT WS quiz
+  - name: ROBOT WS nont
     server: nontontv.vidio.com
     port: 443
     type: trojan
