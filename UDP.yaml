@@ -207,33 +207,3 @@ proxies:
       headers:
         Host: kdi.liteon.biz.id
     udp: false
-  - name: (ID) TELKOM int
-    server: quiz.int.vidio.com
-    port: 443
-    type: vless
-    uuid: dc600a65-01cb-443c-877e-fd0b90f1f7ee
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: joss.krikkrik.tech
-    network: ws
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/ID1
-      headers:
-        Host: joss.krikkrik.tech
-    udp: false
-  - name: (ID) TELKOM huri
-    server: hurricane.lipcon.com
-    port: 443
-    type: vless
-    uuid: dc600a65-01cb-443c-877e-fd0b90f1f7ee
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: joss.krikkrik.tech
-    network: ws
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/ID1
-      headers:
-        Host: joss.krikkrik.tech
-    udp: true
