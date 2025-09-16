@@ -36,15 +36,6 @@ proxies:
       headers:
         Host: sg3tr.jagoanvip.xyz
     udp: false
-  - name: SG tcp
-    server: quiz.int.vidio.com.sg3tr.jagoanvip.xyz
-    port: 443
-    type: trojan
-    password: vvip-Premium2
-    skip-cert-verify: true
-    sni: quiz.int.vidio.com.sg3tr.jagoanvip.xyz
-    network: tcp
-    udp: true
   - name: KEDAI WS HURIC
     server: hurricane.lipcon.com
     port: 443
@@ -78,7 +69,7 @@ proxies:
         Host: id-nusa.kedaivpn.cloud
     udp: false
   - name: KEDAI HTTP IP
-    server: 172.66.144.39
+    server: quiz.vidio.com
     port: 80
     type: vmess
     uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
