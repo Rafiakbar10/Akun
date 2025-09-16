@@ -111,7 +111,7 @@ proxies:
     sni: hurricane.lipcon.com
     network: ws
     ws-opts:
-      path: /trojan
+      path: /PATH
       headers:
         Host: hurricane.lipcon.com
     udp: true
