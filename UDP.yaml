@@ -1,5 +1,5 @@
 proxies:
-  - name: SG GRPC INT.
+  - name: SG GRPC QUIZ.
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -10,7 +10,7 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
-  - name: SG WS HURRI
+  - name: SG WS HURIC
     server: hurricane.lipcon.com
     port: 443
     type: trojan
@@ -23,16 +23,17 @@ proxies:
       headers:
         Host: sg3tr.jagoanvip.xyz
     udp: true
-  - name: SG TCP
-    server: sg3tr.jagoanvip.xyz
+  - name: SG HTTP IP
+    server: 172.66.144.39
     port: 443
     type: trojan
     password: vvip-Premium2
     skip-cert-verify: true
-    sni: ""
+    sni: sg3tr.jagoanvip.xyz
+    network: tcp
     udp: true
-  - name: KRDAI WS HURRI
-    server: hurricane.lipcon.com
+  - name: KEDAI HTTP IP
+    server: 172.66.144.39
     port: 443
     type: vmess
     uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
@@ -47,8 +48,8 @@ proxies:
       headers:
         Host: id-nusa.kedaivpn.cloud
     udp: true
-  - name: KEDAI HTTP IP
-    server: 172.66.144.39
+  - name: KEDAI WS HURRIC
+    server: hurricane.lipcon.com
     port: 80
     type: vmess
     uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
@@ -72,13 +73,13 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ""
+    servername: id-nusa.kedaivpn.cloud
     network: grpc
     grpc-opts:
       grpc-service-name: vmess-grpc
     udp: true
-  - name: ROBOT GRPC INT.
-    server: quiz.int.vidio.com
+  - name: ROBOT GRPC HURRIC
+    server: hurricane.lipcon.com
     port: 443
     type: trojan
     password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
@@ -89,7 +90,7 @@ proxies:
       grpc-service-name: trojan-grpc
     udp: true
   - name: ROBOT WS QUIZ.
-    server: quiz.vidio.com
+    server: quiz.int.vidio.com
     port: 443
     type: trojan
     password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
