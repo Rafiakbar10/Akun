@@ -29,7 +29,7 @@ proxies:
     type: trojan
     password: vvip-Premium2
     skip-cert-verify: true
-    sni: "172.66.144.39"
+    sni: 172.66.144.39
     udp: true
   - name: KEDAI WS
     server: nontontv.vidio.com
@@ -47,8 +47,8 @@ proxies:
       headers:
         Host: id-nusa.kedaivpn.cloud
     udp: true
-  - name: KEDAI HTTP QUIZ.
-    server: quiz.vidio.com
+  - name: KEDAI HTTP INT.
+    server: quiz.int.vidio.com
     port: 80
     type: vmess
     uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
@@ -72,7 +72,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: "172.66.144.39"
+    servername: 172.66.144.39
     network: grpc
     grpc-opts:
       grpc-service-name: vmess-grpc
