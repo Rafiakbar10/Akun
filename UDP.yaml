@@ -23,13 +23,26 @@ proxies:
       headers:
         Host: sg3tr.jagoanvip.xyz
     udp: true
-  - name: SG tcp
-    server: sg3tr.jagoanvip.xyz
+  - name: SG WS IP
+    server: 172.66.144.39
     port: 443
     type: trojan
     password: vvip-Premium2
     skip-cert-verify: true
     sni: sg3tr.jagoanvip.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg3tr.jagoanvip.xyz
+    udp: false
+  - name: SG tcp
+    server: quiz.int.vidio.com.sg3tr.jagoanvip.xyz
+    port: 443
+    type: trojan
+    password: vvip-Premium2
+    skip-cert-verify: true
+    sni: quiz.int.vidio.com.sg3tr.jagoanvip.xyz
     network: tcp
     udp: true
   - name: KEDAI WS HURIC
@@ -48,6 +61,22 @@ proxies:
       headers:
         Host: id-nusa.kedaivpn.cloud
     udp: true
+  - name: KEDAI WS QUIZ
+    server: quiz.int.vidio.com
+    port: 443
+    type: vmess
+    uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-nusa.kedaivpn.cloud
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-nusa.kedaivpn.cloud
+    udp: false
   - name: KEDAI HTTP IP
     server: 172.66.144.39
     port: 80
@@ -89,7 +118,7 @@ proxies:
     grpc-opts:
       grpc-service-name: trojan-grpc
     udp: true
-  - name: ROBOT WS QUIZ.
+  - name: ROBOT WS INT.
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -102,16 +131,29 @@ proxies:
       headers:
         Host: kdi.liteon.biz.id
     udp: true
-  - name: Trojan WS (SNI)
-    server: sg3tr.jagoanvip.xyz
+  - name: ROBOT WS IP
+    server: 172.66.144.39
     port: 443
     type: trojan
-    password: vvip-Premium2
+    password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
     skip-cert-verify: true
-    sni: quiz.int.vidio.com
+    sni: kdi.liteon.biz.id
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-ws
       headers:
-        Host: quiz.int.vidio.com
+        Host: kdi.liteon.biz.id
     udp: true
+  - name: ROBOT WS QUIZ.
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
+    skip-cert-verify: true
+    sni: kdi.liteon.biz.id
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: kdi.liteon.biz.id
+    udp: false
