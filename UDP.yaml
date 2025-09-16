@@ -108,10 +108,10 @@ proxies:
     type: trojan
     password: vvip-Premium2
     skip-cert-verify: true
-    sni: hurricane.lipcon.com
+    sni: quiz.int.vidio.com
     network: ws
     ws-opts:
-      path: /PATH
+      path: /trojan
       headers:
-        Host: hurricane.lipcon.com
+        Host: quiz.int.vidio.com
     udp: true
