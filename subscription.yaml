@@ -1,5 +1,5 @@
 proxies:
-  - name: KEDAI QUIZ
+  - name: KEDAI Huri
     server: hurricane.lipcon.com
     port: 443
     type: vmess
