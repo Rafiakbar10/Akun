@@ -8,12 +8,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-nusa.kedaivpn.cloud
+    servername: quiz.int.vidio.com.id-nusa.kedaivpn.cloud
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: id-nusa.kedaivpn.cloud
+        Host: quiz.int.vidio.com.id-nusa.kedaivpn.cloud
     udp: true
   - name: Robot Nontn
     server: nontontv.vidio.com
