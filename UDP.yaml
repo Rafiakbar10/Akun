@@ -23,8 +23,8 @@ proxies:
       headers:
         Host: sg3tr.jagoanvip.xyz
     udp: true
-  - name: SG HTTP IP
-    server: 172.66.144.39
+  - name: SG tcp
+    server: sg3tr.jagoanvip.xyz
     port: 443
     type: trojan
     password: vvip-Premium2
@@ -32,8 +32,8 @@ proxies:
     sni: sg3tr.jagoanvip.xyz
     network: tcp
     udp: true
-  - name: KEDAI HTTP IP
-    server: 172.66.144.39
+  - name: KEDAI WS HURIC
+    server: hurricane.lipcon.com
     port: 443
     type: vmess
     uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
@@ -48,8 +48,8 @@ proxies:
       headers:
         Host: id-nusa.kedaivpn.cloud
     udp: true
-  - name: KEDAI WS HURRIC
-    server: hurricane.lipcon.com
+  - name: KEDAI HTTP IP
+    server: 172.66.144.39
     port: 80
     type: vmess
     uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
