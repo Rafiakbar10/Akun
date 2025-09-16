@@ -108,7 +108,7 @@ proxies:
       grpc-service-name: vmess-grpc
     udp: false
   - name: KEDAI WS sup
-    server: support.vidio.com
+    server: 172.66.144.39
     port: 443
     type: vmess
     uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
