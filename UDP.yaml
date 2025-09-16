@@ -102,16 +102,16 @@ proxies:
       headers:
         Host: kdi.liteon.biz.id
     udp: true
-- name: Trojan WS (SNI)
-  server: sg3tr.jagoanvip.xyz
-  port: 443
-  type: trojan
-  password: vvip-Premium2
-  skip-cert-verify: true
-  sni: hurricane.lipcon.com
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: hurricane.lipcon.com
-  udp: true
+  - name: Trojan WS (SNI)
+    server: sg3tr.jagoanvip.xyz
+    port: 443
+    type: trojan
+    password: vvip-Premium2
+    skip-cert-verify: true
+    sni: hurricane.lipcon.com
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: hurricane.lipcon.com
+    udp: true
