@@ -1,28 +1,27 @@
 proxies:
-  - name: Jagoan Huri
+  - name: SG WS Huri
     server: hurricane.lipcon.com
     port: 443
     type: trojan
-    password: vvip-Premium2
+    password: rafiakbar10
     skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
+    sni: sg-gsl002.arenato.rest
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: sg3tr.jagoanvip.xyz
+        Host: sg-gsl002.arenato.rest
     udp: true
-  - name: Jagoan quiz
+  - name: SG WS Xudp
     server: quiz.int.vidio.com
     port: 443
     type: trojan
-    password: vvip-Premium2
+    password: rafiakbar10
     skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
+    sni: quiz.int.vidio.comsg-gsl002.arenato.rest
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: sg3tr.jagoanvip.xyz
+        Host: quiz.int.vidio.com.sg-gsl002.arenato.rest
     udp: true
-    
