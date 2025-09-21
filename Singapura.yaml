@@ -12,13 +12,13 @@ proxies:
       headers:
         Host: sg-gsl002.arenato.rest
     udp: true
-  - name: SG WS Xudp
+  - name: SG WS QUIZ
     server: quiz.int.vidio.com
     port: 443
     type: trojan
     password: rafiakbar10
     skip-cert-verify: true
-    sni: quiz.int.vidio.comsg-gsl002.arenato.rest
+    sni: quiz.int.vidio.com.sg-gsl002.arenato.rest
     network: ws
     ws-opts:
       path: /trojan-go
