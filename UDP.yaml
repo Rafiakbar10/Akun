@@ -1,124 +1,148 @@
 proxies:
-  - name: SG GRPC QUIZ.
+  - name: SG WS QUIZ
     server: quiz.int.vidio.com
     port: 443
     type: trojan
-    password: vvip-Premium2
+    password: rafiakbar10
     skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
+    sni: sg-gsl002.arenato.rest
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: sg-gsl002.arenato.rest
     udp: true
-  - name: SG GRPC VIDIO.
+  - name: SG WS VIDIO
     server: quiz.vidio.com
     port: 443
     type: trojan
-    password: vvip-Premium2
+    password: rafiakbar10
     skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: true
-  - name: SG GRPC NONT.
-    server: nontontv.vidio.com
-    port: 443
-    type: trojan
-    password: vvip-Premium2
-    skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: true
-  - name: SG GRPC HURRI.
-    server: hurricane.lipcon.com
-    port: 443
-    type: trojan
-    password: vvip-Premium2
-    skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: true
-  - name: SG GRPC IP
-    server: 172.66.144.39
-    port: 443
-    type: trojan
-    password: vvip-Premium2
-    skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: true
-  - name: SG WS QUIZ.
-    server: quiz.int.vidio.com
-    port: 443
-    type: trojan
-    password: vvip-Premium2
-    skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
+    sni: sg-gsl002.arenato.rest
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: sg3tr.jagoanvip.xyz
-    udp: true
-  - name: SG WS VIDIO.
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: vvip-Premium2
-    skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: sg3tr.jagoanvip.xyz
+        Host: sg-gsl002.arenato.rest
     udp: true
   - name: SG WS NONT
     server: nontontv.vidio.com
     port: 443
     type: trojan
-    password: vvip-Premium2
+    password: rafiakbar10
     skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
+    sni: sg-gsl002.arenato.rest
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: sg3tr.jagoanvip.xyz
+        Host: sg-gsl002.arenato.rest
     udp: true
   - name: SG WS HURRI
     server: hurricane.lipcon.com
     port: 443
     type: trojan
-    password: vvip-Premium2
+    password: rafiakbar10
     skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
+    sni: sg-gsl002.arenato.rest
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: sg3tr.jagoanvip.xyz
+        Host: sg-gsl002.arenato.rest
     udp: true
   - name: SG WS IP
     server: 172.66.144.39
     port: 443
     type: trojan
-    password: vvip-Premium2
+    password: rafiakbar10
     skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
+    sni: sg-gsl002.arenato.rest
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: sg3tr.jagoanvip.xyz
+        Host: sg-gsl002.arenato.rest
     udp: true
+  - name: SG WS XDP
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: rafiakbar10
+    skip-cert-verify: true
+    sni: quiz.int.vidio.com.sg-gsl002.arenato.rest
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: quiz.int.vidio.com.sg-gsl002.arenato.rest
+    udp: false
+  - name: SG GRPC QUIZ.
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: rafiakbar10
+    skip-cert-verify: true
+    sni: sg-gsl002.arenato.rest
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
+  - name: SG GRPC VIDIO.
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: rafiakbar10
+    skip-cert-verify: true
+    sni: sg-gsl002.arenato.rest
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
+  - name: SG GRPC NONT
+    server: nontontv.vidio.com
+    port: 443
+    type: trojan
+    password: rafiakbar10
+    skip-cert-verify: true
+    sni: sg-gsl002.arenato.rest
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
+  - name: SG GRPC HURRI
+    server: hurricane.lipcon.com
+    port: 443
+    type: trojan
+    password: rafiakbar10
+    skip-cert-verify: true
+    sni: sg-gsl002.arenato.rest
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
+  - name: SG GRPC IP
+    server: 172.66.144.39
+    port: 443
+    type: trojan
+    password: rafiakbar10
+    skip-cert-verify: true
+    sni: sg-gsl002.arenato.rest
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
+  - name: SG GRPC XDP
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: rafiakbar10
+    skip-cert-verify: true
+    sni: quiz.vidio.com.sg-gsl002.arenato.rest
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: false
   - name: KEDAI WS QUIZ.
     server: quiz.int.vidio.com
     port: 443
