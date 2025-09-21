@@ -138,7 +138,7 @@ proxies:
     type: trojan
     password: rafiakbar10
     skip-cert-verify: true
-    sni: quiz.vidio.com.sg-gsl002.gosni.web.id
+    sni: sg-gsl002.gosni.web.id
     network: grpc
     grpc-opts:
       grpc-service-name: trojan-grpc
