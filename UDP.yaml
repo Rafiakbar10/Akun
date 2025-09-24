@@ -14,7 +14,7 @@ proxies:
     udp: true
   - name: SG WS VIDIO
     server: quiz.vidio.com
-    port: 443
+    port: true
     type: trojan
     password: rafiakbar10
     skip-cert-verify: true
@@ -24,7 +24,7 @@ proxies:
       path: /trojan-go
       headers:
         Host: sg-gsl002.arenato.rest
-    udp: true
+    udp: false
   - name: SG WS NONT
     server: nontontv.vidio.com
     port: 443
