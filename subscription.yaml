@@ -1,31 +1,33 @@
 proxies:
-  - name: KEDAI Huri
-    server: hurricane.lipcon.com
+  - name: Nonton
+    server: nontontv.vidio.com
     port: 443
     type: vmess
-    uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
+    uuid: d4a8fd23-4535-5b5e-aff0-d34c17701992
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-nusa.kedaivpn.cloud
+    servername: id-ikd001.kegiatanja.my.id
     network: ws
     ws-opts:
-      path: /vmess
+      path: /xrayvmess
       headers:
-        Host: id-nusa.kedaivpn.cloud
+        Host: id-ikd001.kegiatanja.my.id
     udp: true
-  - name: Robot Nontn
-    server: nontontv.vidio.com
+  - name: Huri
+    server: hurricane.lipcon.com
     port: 443
-    type: trojan
-    password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
+    type: vmess
+    uuid: d4a8fd23-4535-5b5e-aff0-d34c17701992
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: kdi.liteon.biz.id
+    servername: id-ikd001.kegiatanja.my.id
     network: ws
     ws-opts:
-      path: /trojan-ws
+      path: /xrayvmess
       headers:
-        Host: kdi.liteon.biz.id
+        Host: id-ikd001.kegiatanja.my.id
     udp: true
-    
