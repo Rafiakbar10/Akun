@@ -223,8 +223,6 @@ proxies:
       headers:
         Host: id-ikd001.kegiatanja.my.id
     udp: true
-    grpc-service-name: vmess-grpc
-    udp: true
   - name: IKD XUDP
     server: quiz.vidio.com
     port: 443
