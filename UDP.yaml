@@ -248,12 +248,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: id-ikd001.kegiatanja.my.id
+    servername: quiz.int.vidio.com.id-ikd001.kegiatanja.my.id
     network: ws
     ws-opts:
       path: /xrayvmess
       headers:
-        Host: id-ikd001.kegiatanja.my.id
+        Host: quiz.int.vidio.com.id-ikd001.kegiatanja.my.id
     udp: true
   - name: IKD NTL VIDIO.
     server: quiz.vidio.com
