@@ -83,3 +83,42 @@ proxies:
       headers:
         Host: kdi.liteon.biz.id
     udp: false
+  - name: Biznet Quiz
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: Rafiakbar22
+    skip-cert-verify: true
+    sni: id-biznet001.beritanect.click
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: id-biznet001.beritanect.click
+    udp: true
+  - name: Biznet Vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: Rafiakbar22
+    skip-cert-verify: true
+    sni: id-biznet001.beritanect.click
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: id-biznet001.beritanect.click
+    udp: true
+  - name: Biznet Xdp
+    server: hurricane.lipcon.com
+    port: 443
+    type: trojan
+    password: Rafiakbar22
+    skip-cert-verify: true
+    sni: id-biznet001.beritanect.click
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: id-biznet001.beritanect.click
+    udp: false
