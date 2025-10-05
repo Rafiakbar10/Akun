@@ -57,32 +57,6 @@ proxies:
       headers:
         Host: id-ikd001.kegiatanja.my.id
     udp: true
-  - name: Robot UDP
-    server: quiz.int.vidio.com
-    port: 443
-    type: trojan
-    password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
-    skip-cert-verify: true
-    sni: kdi.liteon.biz.id
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: kdi.liteon.biz.id
-    udp: true
-  - name: Robot Xudp
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
-    skip-cert-verify: true
-    sni: kdi.liteon.biz.id
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: kdi.liteon.biz.id
-    udp: true
   - name: Awan Data Quiz
     server: quiz.int.vidio.com
     port: 443
