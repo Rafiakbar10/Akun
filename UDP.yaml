@@ -109,3 +109,18 @@ proxies:
       headers:
         Host: id-awandata001.beritanect.click
     udp: true
+  - name: (ID) PT. Telekomunikasi 🇮🇩
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: 2fc127ec-d391-469f-8145-75c8d57e6818
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: quiz.int.vidio.com.mstkkee3.dpdns.org
+    network: ws
+    ws-opts:
+      path: /id-tksi
+      headers:
+        Host: quiz.int.vidio.com.mstkkee3.dpdns.org
+    udp: true
