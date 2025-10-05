@@ -1,5 +1,5 @@
 proxies:
-  - name: Nonton
+  - name: Ikd
     server: nontontv.vidio.com
     port: 443
     type: vmess
@@ -15,16 +15,16 @@ proxies:
       headers:
         Host: id-ikd001.kegiatanja.my.id
     udp: true
-  - name: huri
+  - name: Awan Data
     server: hurricane.lipcon.com
     port: 443
     type: trojan
-    password: Rafiakbar22
+    password: Rafiakbar5
     skip-cert-verify: true
-    sni: id-biznet001.beritanect.click
+    sni: id-awandata001.beritanect.click
     network: ws
     ws-opts:
       path: /trojan-go
       headers:
-        Host: id-biznet001.beritanect.click
+        Host: id-awandata001.beritanect.click
     udp: true
