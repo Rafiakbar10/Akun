@@ -1,17 +1,14 @@
 proxies:
-  - name: Atha ip
-    server: 172.67.73.39
+  - name: Rafiakbar22trojan-go
+    server: support.zoom.us
     port: 443
-    type: vmess
-    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: Rafiakbar22
     skip-cert-verify: true
-    servername: support.zoom.us.id-atha001.kegiatanja.my.id
+    sni: support.zoom.us.id-atha001.kegiatanja.my.id
     network: ws
     ws-opts:
-      path: /xrayvmess
+      path: /trojan-go
       headers:
         Host: support.zoom.us.id-atha001.kegiatanja.my.id
     udp: true
