@@ -1,5 +1,5 @@
 proxies:
-  - name: Rafiakbar22trojan-go
+  - name: atha
     server: support.zoom.us
     port: 443
     type: trojan
