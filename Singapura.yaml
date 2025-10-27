@@ -1,5 +1,5 @@
 proxies:
-  - name: Udp 1
+  - name: SP Udp 1
     server: support.zoom.us
     port: 443
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: Udp 2
+  - name: SP Udp 2
     server: support.zoom.us
     port: 443
     type: vmess
@@ -31,7 +31,7 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: Xudp 1
+  - name: SP Xudp 1
     server: support.zoom.us
     port: 443
     type: vmess
@@ -47,7 +47,7 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: false
-  - name: Xudp 2 
+  - name: SP Xudp 2 
     server: support.zoom.us
     port: 443
     type: vmess
