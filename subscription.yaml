@@ -1,97 +1,40 @@
 proxies:
-  - name: Udp 1
+  - name: atha 1
     server: support.zoom.us
     port: 443
     type: trojan
-    password: vvip-Rafiakbar22
+    password: Rafiakbar22
     skip-cert-verify: true
-    sni: support.zoom.us.idtr.jagoanvip.xyz
+    sni: support.zoom.us.id-atha001.kegiatanja.my.id
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: support.zoom.us.idtr.jagoanvip.xyz
+        Host: support.zoom.us.id-atha001.kegiatanja.my.id
     udp: true
-  - name: Udp 2
+  - name: atha 2
     server: support.zoom.us
     port: 443
     type: trojan
-    password: vvip-Rafiakbar22
+    password: Rafiakbar22
     skip-cert-verify: true
-    sni: support.zoom.us.idtr.jagoanvip.xyz
+    sni: support.zoom.us.id-atha001.kegiatanja.my.id
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: support.zoom.us.idtr.jagoanvip.xyz
+        Host: support.zoom.us.id-atha001.kegiatanja.my.id
     udp: true
-  - name: Xudp 1
+  - name: atha 3 
     server: support.zoom.us
     port: 443
     type: trojan
-    password: vvip-Rafiakbar22
+    password: Rafiakbar22
     skip-cert-verify: true
-    sni: support.zoom.us.idtr.jagoanvip.xyz
+    sni: id-atha001.kegiatanja.my.id
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: support.zoom.us.idtr.jagoanvip.xyz
-    udp: false
-  - name: Xudp 2
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar22
-    skip-cert-verify: true
-    sni: support.zoom.us.idtr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: support.zoom.us.idtr.jagoanvip.xyz
-    udp: false
-  - name: Grpc U 1
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar22
-    skip-cert-verify: true
-    sni: support.zoom.us.idtr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
+        Host: id-atha001.kegiatanja.my.id
     udp: true
-  - name: Grpc U 2
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar22
-    skip-cert-verify: true
-    sni: support.zoom.us.idtr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: true
-  - name: Grpc X 1
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar22
-    skip-cert-verify: true
-    sni: support.zoom.us.idtr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: false
-  - name: Grpc X 2
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar22
-    skip-cert-verify: true
-    sni: support.zoom.us.idtr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: false
