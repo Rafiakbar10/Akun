@@ -1,65 +1,40 @@
 proxies:
-  - name: Atha U
+  - name: IKD u 1
     server: support.zoom.us
     port: 443
-    type: vmess
-    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: vvip-Rafiakbar22
     skip-cert-verify: true
-    servername: support.zoom.us.id-atha001.kegiatanja.my.id
+    sni: support.zoom.us.idtr.jagoanvip.xyz
     network: ws
     ws-opts:
-      path: /xrayvmess
+      path: /trojan
       headers:
-        Host: support.zoom.us.id-atha001.kegiatanja.my.id
+        Host: support.zoom.us.idtr.jagoanvip.xyz
     udp: true
-  - name: Atha U 2
+  - name: IKD u 2
     server: support.zoom.us
     port: 443
-    type: vmess
-    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: vvip-Rafiakbar22
     skip-cert-verify: true
-    servername: support.zoom.us.id-atha001.kegiatanja.my.id
+    sni: support.zoom.us.idtr.jagoanvip.xyz
     network: ws
     ws-opts:
-      path: /xrayvmess
+      path: /trojan
       headers:
-        Host: support.zoom.us.id-atha001.kegiatanja.my.id
+        Host: support.zoom.us.idtr.jagoanvip.xyz
     udp: true
-  - name: Atha X 1
+  - name: IKD x
     server: support.zoom.us
     port: 443
-    type: vmess
-    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: vvip-Rafiakbar22
     skip-cert-verify: true
-    servername: support.zoom.us.id-atha001.kegiatanja.my.id
+    sni: support.zoom.us.idtr.jagoanvip.xyz
     network: ws
     ws-opts:
-      path: /xrayvmess
+      path: /trojan
       headers:
-        Host: support.zoom.us.id-atha001.kegiatanja.my.id
-    udp: false
-  - name: Atha X 2
-    server: support.zoom.us
-    port: 443
-    type: vmess
-    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.id-atha001.kegiatanja.my.id
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: support.zoom.us.id-atha001.kegiatanja.my.id
+        Host: support.zoom.us.idtr.jagoanvip.xyz
     udp: false
