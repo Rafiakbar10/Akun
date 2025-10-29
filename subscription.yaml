@@ -12,6 +12,54 @@ proxies:
       headers:
         Host: support.zoom.us.idtr.jagoanvip.xyz
     udp: true
+  - name: IKD ply U
+    server: idtr.jagoanvip.xyz
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar22
+    skip-cert-verify: true
+    sni: vplay.iflix.com
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: idtr.jagoanvip.xyz
+    udp: true
+  - name: IKD play gRPC U
+    server: idtr.jagoanvip.xyz
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar22
+    skip-cert-verify: true
+    sni: vplay.iflix.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojangrpc
+    udp: true
+  - name: IKD ply X 
+    server: idtr.jagoanvip.xyz
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar22
+    skip-cert-verify: true
+    sni: vplay.iflix.com
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: idtr.jagoanvip.xyz
+    udp: false
+  - name: IKD play gRPC x
+    server: idtr.jagoanvip.xyz
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar22
+    skip-cert-verify: true
+    sni: vplay.iflix.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojangrpc
+    udp: false
   - name: IKD u 2
     server: support.zoom.us
     port: 443
@@ -38,16 +86,4 @@ proxies:
       headers:
         Host: support.zoom.us.idtr.jagoanvip.xyz
     udp: false
-  - name: IKD ply sni
-    server: idtr.jagoanvip.xyz
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar22
-    skip-cert-verify: true
-    sni: vplay.iflix.com
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: idtr.jagoanvip.xyz
-    udp: true
+
