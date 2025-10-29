@@ -16,6 +16,22 @@ proxies:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
   - name: SP Udp 2
+    server: sg-gsl002.arenato.rest
+    port: 443
+    type: vmess
+    uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vplay.iflix.com
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: sg-gsl002.arenato.rest
+    udp: true
+  - name: SP Udp 2
     server: support.zoom.us
     port: 443
     type: vmess
