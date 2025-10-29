@@ -16,7 +16,7 @@ proxies:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
   - name: SP play 
-    server: sg-gsl002.arenato.rest
+    server: sg-gsl002.gosni.web.id
     port: 443
     type: vmess
     uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
@@ -29,7 +29,7 @@ proxies:
     ws-opts:
       path: /xrayvmess
       headers:
-        Host: sg-gsl002.arenato.rest
+        Host: sg-gsl002.gosni.web.id
     udp: true
   - name: SP serv
     server: vplay.iflix.com
@@ -40,15 +40,15 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-gsl002.arenato.rest
+    servername: sg-gsl002.gosni.web.id
     network: ws
     ws-opts:
       path: /xrayvmess
       headers:
-        Host: sg-gsl002.arenato.rest
+        Host: sg-gsl002.gosni.web.id
     udp: true
   - name: SP name/hos
-    server: sg-gsl002.arenato.rest
+    server: sg-gsl002.gosni.web.id
     port: 443
     type: vmess
     uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
