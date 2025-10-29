@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: SP play 
+  - name: SP play  co
     server: sg-gsl002.gosni.web.id
     port: 443
     type: vmess
