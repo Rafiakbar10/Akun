@@ -1,5 +1,5 @@
 proxies:
-  - name: SP Udp 1
+  - name: SP wc 1
     server: support.zoom.us
     port: 443
     type: vmess
@@ -47,7 +47,7 @@ proxies:
       headers:
         Host: vplay.iflix.com
     udp: true
-  - name: SP Udp 2
+  - name: SP wc 2
     server: support.zoom.us
     port: 443
     type: vmess
@@ -63,7 +63,7 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: SP Xudp 1
+  - name: SP wc 3
     server: support.zoom.us
     port: 443
     type: vmess
@@ -79,7 +79,7 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: SP Xudp 2 
+  - name: SP wc 4 
     server: support.zoom.us
     port: 443
     type: vmess
