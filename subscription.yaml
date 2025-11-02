@@ -73,29 +73,4 @@ proxies:
     grpc-opts:
       grpc-service-name: trojan-grpc
     udp: true
-  - name: raja mitra
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: cobaraja
-    skip-cert-verify: true
-    sni: support.zoom.us.id-rajamitra001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: support.zoom.us.id-rajamitra001.beritanect.click
-    udp: true
-  - name: uninet
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: percobaan
-    skip-cert-verify: true
-    sni: support.zoom.us.id-uninet001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: support.zoom.us.id-uninet001.beritanect.click
-    udp: true
+
