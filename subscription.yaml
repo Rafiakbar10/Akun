@@ -15,7 +15,7 @@ proxies:
   - name: Qw Play
     server: id-qwords001.gosni.web.id
     port: 443n
-    type: troja
+    type: trojan
     password: Rafiakbar22
     skip-cert-verify: true
     sni: vplay.iflix.com
