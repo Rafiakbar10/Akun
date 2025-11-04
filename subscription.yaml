@@ -1,9 +1,9 @@
 proxies:
-  - name: QW wc 1
+  - name: QW WC 1
     server: support.zoom.us
     port: 443
     type: trojan
-    password: Rafiakbar22
+    password: Rafiakbar10
     skip-cert-verify: true
     sni: support.zoom.us.id-qw001.beritanect.click
     network: ws
@@ -12,11 +12,11 @@ proxies:
       headers:
         Host: support.zoom.us.id-qw001.beritanect.click
     udp: true
-  - name: QW wc 2
+  - name: QW WC 2
     server: support.zoom.us
     port: 443
     type: trojan
-    password: Rafiakbar22
+    password: Rafiakbar10
     skip-cert-verify: true
     sni: support.zoom.us.id-qw001.beritanect.click
     network: ws
@@ -25,11 +25,11 @@ proxies:
       headers:
         Host: support.zoom.us.id-qw001.beritanect.click
     udp: true
-  - name: Qw play 1
+  - name: QW PLAY 1
     server: id-qwords001.gosni.web.id
     port: 443
     type: trojan
-    password: Rafiakbar22
+    password: Rafiakbar10
     skip-cert-verify: true
     sni: vplay.iflix.com
     network: ws
@@ -38,11 +38,11 @@ proxies:
       headers:
         Host: id-qwords001.gosni.web.id
     udp: true
-  - name: Qw play 2
+  - name: QW PLAY 2
     server: id-qwords001.gosni.web.id
     port: 443
     type: trojan
-    password: Rafiakbar22
+    password: Rafiakbar10
     skip-cert-verify: true
     sni: vplay.iflix.com
     network: ws
@@ -51,22 +51,22 @@ proxies:
       headers:
         Host: id-qwords001.gosni.web.id
     udp: true
-  - name: Qw grpc play 1
+  - name: QW grpc PLAY 1
     server: id-qwords001.gosni.web.id
     port: 443
     type: trojan
-    password: Rafiakbar22
+    password: Rafiakbar10
     skip-cert-verify: true
     sni: vplay.iflix.com
     network: grpc
     grpc-opts:
       grpc-service-name: trojan-grpc
     udp: true
-  - name: Qw grpc play 2
+  - name: QW grpc PLAY 2
     server: id-qwords001.gosni.web.id
     port: 443
     type: trojan
-    password: Rafiakbar22
+    password: Rafiakbar10
     skip-cert-verify: true
     sni: vplay.iflix.com
     network: grpc
