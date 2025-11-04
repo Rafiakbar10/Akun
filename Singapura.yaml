@@ -1,9 +1,9 @@
 proxies:
-  - name: SP wc 1
+  - name: SERVER WC 1
     server: support.zoom.us
     port: 443
     type: vmess
-    uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
     alterId: 0
     cipher: auto
     tls: true
@@ -15,11 +15,11 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: SP play Servnam
+ - name: SERVER play srvnm
     server: sg-gsl002.gosni.web.id
     port: 443
     type: vmess
-    uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
     alterId: 0
     cipher: auto
     tls: true
@@ -29,13 +29,13 @@ proxies:
     ws-opts:
       path: /xrayvmess
       headers:
-        Host: sg-gsl002.gosni.web.id
+        Host: sg-gsl002.gosni.web.idupport.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: SP name-hos
+ - name: SERVER Name-Host
     server: sg-gsl002.gosni.web.id
     port: 443
     type: vmess
-    uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
     alterId: 0
     cipher: auto
     tls: true
@@ -47,11 +47,11 @@ proxies:
       headers:
         Host: vplay.iflix.com
     udp: true
-  - name: SP wc 2
+ - name: SERVER WC 2
     server: support.zoom.us
     port: 443
     type: vmess
-    uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
     alterId: 0
     cipher: auto
     tls: true
@@ -63,11 +63,11 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: SP wc 3
+ - name: SERVER WC 3
     server: support.zoom.us
     port: 443
     type: vmess
-    uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
     alterId: 0
     cipher: auto
     tls: true
@@ -79,11 +79,11 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: SP wc 4 
+ - name: SERVER WC 4
     server: support.zoom.us
     port: 443
     type: vmess
-    uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
     alterId: 0
     cipher: auto
     tls: true
@@ -95,3 +95,5 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
+
+
