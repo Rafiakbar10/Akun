@@ -110,4 +110,16 @@ proxies:
     grpc-opts:
       grpc-service-name: trojan-grpc
     udp: true
-
+  - name: QW IP
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: Rafiakbar10
+    skip-cert-verify: true
+    sni: id-qw001.beritanect.click
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: id-qw001.beritanect.click
+    udp: true
