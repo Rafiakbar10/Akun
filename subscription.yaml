@@ -110,16 +110,5 @@ proxies:
     grpc-opts:
       grpc-service-name: trojan-grpc
     udp: true
-  - name: PTTelekomu 🇮🇩
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: ed601b2d-9f42-409d-a7eb-b04d6b00f031
-    skip-cert-verify: true
-    sni: support.zoom.us.joss.krukkruk.web.id
-    network: ws
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/36.95.152.58=12137
-      headers:
-        Host: support.zoom.us.joss.krukkruk.web.id
-    udp: true
+
+
