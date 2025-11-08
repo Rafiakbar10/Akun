@@ -110,3 +110,18 @@ proxies:
     grpc-opts:
       grpc-service-name: trojan-grpc
     udp: true
+  - name: 21FCiputra 🇮🇩
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: fe3e2559-9f8f-49f7-82c5-0e181cd22c67
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.joss.krukkruk.web.id
+    network: ws
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/149.129.250.8=443
+      headers:
+        Host: support.zoom.us.joss.krukkruk.web.id
+    udp: true
