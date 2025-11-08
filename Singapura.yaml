@@ -95,17 +95,6 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: Melbikomas 🇸🇬
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: b216375c-c2c7-4f3c-a83d-cbc75b3d6596
-    skip-cert-verify: true
-    sni: support.zoom.us.joss.krukkruk.web.id
-    network: ws
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/91.192.81.154=8443
-      headers:
-        Host: support.zoom.us.joss.krukkruk.web.id
-    udp: true
+
+
 
