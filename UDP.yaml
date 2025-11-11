@@ -1,58 +1,18 @@
 proxies:
-  - name: QW WC
+  - name: WIJAYA WC 1
     server: support.zoom.us
     port: 443
     type: trojan
-    password: Rafiakbar22
+    password: Rafiakbar10
     skip-cert-verify: true
-    sni: support.zoom.us.id-qw001.beritanect.click
+    sni: support.zoom.us.id-wijaya001.beritanect.click
     network: ws
     ws-opts:
       path: /trojan-go
       headers:
-        Host: support.zoom.us.id-qw001.beritanect.click
+        Host: support.zoom.us.id-wijaya001.beritanect.click
     udp: true
-  - name: Qw Play
-    server: id-qwords001.gosni.web.id
-    port: 443n
-    type: troja
-    password: Rafiakbar22
-    skip-cert-verify: true
-    sni: vplay.iflix.com
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: id-qwords001.gosni.web.id
-    udp: true
-  - name: QW grpc
-    server: id-qwords001.gosni.web.id
-    port: 443
-    type: trojan
-    password: Rafiakbar22
-    skip-cert-verify: true
-    sni: vplay.iflix.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
-    udp: true
-  - name: Atha WC
-    server: support.zoom.us
-    port: 443
-    type: vmess
-    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.id-atha001.kegiatanja.my.id
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: support.zoom.us.id-atha001.kegiatanja.my.id
-    udp: true
-  - name: IKD WC
+  - name: "IKD WC"
     server: support.zoom.us
     port: 443
     type: trojan
@@ -65,23 +25,20 @@ proxies:
       headers:
         Host: support.zoom.us.idtr.jagoanvip.xyz
     udp: true
-  - name: Atha play
-    server: id-atha001.gosni.web.id
+  - name: WIJAYA WC 2
+    server: support.zoom.us
     port: 443
-    type: vmess
-    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: Rafiakbar10
     skip-cert-verify: true
-    servername: vplay.iflix.com
+    sni: support.zoom.us.id-wijaya001.beritanect.click
     network: ws
     ws-opts:
-      path: /xrayvmess
+      path: /trojan-go
       headers:
-        Host: vplay.iflix.com
+        Host: support.zoom.us.id-wijaya001.beritanect.click
     udp: true
-  - name: IKD play
+  - name: "IKD PLAY"
     server: idtr.jagoanvip.xyz
     port: 443
     type: trojan
@@ -94,7 +51,20 @@ proxies:
       headers:
         Host: idtr.jagoanvip.xyz
     udp: true
-  - name: IKD play gRPC
+  - name: WIJAYA PLAY 1
+    server: id-wijaya001.gosni.web.id
+    port: 443
+    type: trojan
+    password: Rafiakbar10
+    skip-cert-verify: true
+    sni: vplay.iflix.com
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: id-wijaya001.gosni.web.id
+    udp: true
+  - name: "IKD GRPC PLAY"
     server: idtr.jagoanvip.xyz
     port: 443
     type: trojan
@@ -105,40 +75,83 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
-  - name: Atha WC Xudp
+  - name: WIJAYA PLAY 2
+    server: id-wijaya001.gosni.web.id
+    port: 443
+    type: trojan
+    password: Rafiakbar10
+    skip-cert-verify: true
+    sni: vplay.iflix.com
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: id-wijaya001.gosni.web.id
+    udp: true
+  - name: WIJAYA GRPC PLAY 1
+    server: id-wijaya001.gosni.web.id
+    port: 443
+    type: trojan
+    password: Rafiakbar10
+    skip-cert-verify: true
+    sni: vplay.iflix.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
+  - name: WIJAYA GRPC PLAY 2
+    server: id-wijaya001.gosni.web.id
+    port: 443
+    type: trojan
+    password: Rafiakbar10
+    skip-cert-verify: true
+    sni: vplay.iflix.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
+
+
+
+    
+proxies:
+  - name: SERVER WC 1
     server: support.zoom.us
     port: 443
     type: vmess
-    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.id-atha001.kegiatanja.my.id
+    servername: support.zoom.us.sg-gsl002.arenato.rest
     network: ws
     ws-opts:
       path: /xrayvmess
       headers:
-        Host: support.zoom.us.id-atha001.kegiatanja.my.id
-    udp: false
-  - name: IKD WC Xudp
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar22
-    skip-cert-verify: true
-    sni: support.zoom.us.idtr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: support.zoom.us.idtr.jagoanvip.xyz
-    udp: false
-  - name: Atha play Xudp
-    server: id-atha001.gosni.web.id
+        Host: support.zoom.us.sg-gsl002.arenato.rest
+    udp: true
+  - name: SERVER play srvnm
+    server: sg-gsl002.gosni.web.id
     port: 443
     type: vmess
-    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vplay.iflix.com
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: sg-gsl002.gosni.web.idupport.zoom.us.sg-gsl002.arenato.rest
+    udp: true
+  - name: SERVER Name-Host
+    server: sg-gsl002.gosni.web.id
+    port: 443
+    type: vmess
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
     alterId: 0
     cipher: auto
     tls: true
@@ -149,29 +162,55 @@ proxies:
       path: /xrayvmess
       headers:
         Host: vplay.iflix.com
-    udp: false
-  - name: IKD GRPC play 2 Xudp
-    server: idtr.jagoanvip.xyz
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar22
-    skip-cert-verify: true
-    sni: vplay.iflix.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: false
-  - name: IKD Xudp
+    udp: true
+  - name: SERVER WC 2
     server: support.zoom.us
     port: 443
-    type: trojan
-    password: vvip-Rafiakbar22
+    type: vmess
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: support.zoom.us.idtr.jagoanvip.xyz
+    servername: support.zoom.us.sg-gsl002.arenato.rest
     network: ws
     ws-opts:
-      path: /trojan
+      path: /xrayvmess
       headers:
-        Host: support.zoom.us.idtr.jagoanvip.xyz
-    udp: false
+        Host: support.zoom.us.sg-gsl002.arenato.rest
+    udp: true
+  - name: SERVER WC 3
+    server: support.zoom.us
+    port: 443
+    type: vmess
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.sg-gsl002.arenato.rest
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: support.zoom.us.sg-gsl002.arenato.rest
+    udp: true
+  - name: SERVER WC 4
+    server: support.zoom.us
+    port: 443
+    type: vmess
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.sg-gsl002.arenato.rest
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: support.zoom.us.sg-gsl002.arenato.rest
+    udp: true
+
+
 
