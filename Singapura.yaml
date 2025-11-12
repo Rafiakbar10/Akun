@@ -1,5 +1,5 @@
 proxies:
-  - name: SERVER WC 1
+  - name: SERVR GRPC serv
     server: support.zoom.us
     port: 443
     type: vmess
@@ -8,14 +8,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.sg-gsl002.arenato.rest
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: support.zoom.us.sg-gsl002.arenato.rest
+    servername: sg-gsl002.gosni.web.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
     udp: true
-  - name: SERVER play srvnm
+  - name: SERVR GRPC servnm
     server: sg-gsl002.gosni.web.id
     port: 443
     type: vmess
@@ -24,14 +22,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vplay.iflix.com
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: sg-gsl002.gosni.web.idupport.zoom.us.sg-gsl002.arenato.rest
+    servername: support.zoom.us
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
     udp: true
-  - name: SERVER Name-Host
+  - name: SERVR GRPC Langsung
     server: sg-gsl002.gosni.web.id
     port: 443
     type: vmess
@@ -40,61 +36,8 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vplay.iflix.com
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: vplay.iflix.com
+    servername: sg-gsl002.gosni.web.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
     udp: true
-  - name: SERVER WC 2
-    server: support.zoom.us
-    port: 443
-    type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.sg-gsl002.arenato.rest
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: support.zoom.us.sg-gsl002.arenato.rest
-    udp: true
-  - name: SERVER WC 3
-    server: support.zoom.us
-    port: 443
-    type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.sg-gsl002.arenato.rest
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: support.zoom.us.sg-gsl002.arenato.rest
-    udp: true
-  - name: SERVER WC 4
-    server: support.zoom.us
-    port: 443
-    type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.sg-gsl002.arenato.rest
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: support.zoom.us.sg-gsl002.arenato.rest
-    udp: true
-
-
-
